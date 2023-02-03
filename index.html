@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <div id="buttons">
+            <button onclick="getChoice('rock')">rock</button>
+            <button onclick="getChoice('paper')">paper</button>
+            <button onclick="getChoice('scissors')">scissors</button>
+            <button onclick="play()">play</button>
+        </div>
+
+        <div id="images">
+            <div id="myChoice">
+                <img id="me" src="images/paper.jpeg" alt="">
+            </div>
+
+           <div id="versus">X</div>
+
+           <div id="botChoice">
+                <img  src="images/scissors.jpeg" alt=""> 
+           </div>
+        
+        </div>
+
+        <div id="result">Win</div>
+    
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
+
+
